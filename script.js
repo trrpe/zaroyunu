@@ -17,7 +17,7 @@ let scores, currentScore, activePlayer,playing;
 const init = function() {
     scores [0, 0];
     currentScore = 0;
-    activePlayer = 0;
+    activePlayer = 2;
     playing = true;
 
     score0El.textContent = 0;
